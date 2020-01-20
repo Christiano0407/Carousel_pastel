@@ -1,0 +1,59 @@
+/* document.write(`Hola, mundo felíz!`);
+
+var men = document.querySelector(`#man`); */
+
+/* var familia = [`Alejandra`, `Rodrigo`, `Mau`, `Pamme`];
+
+console.log(familia); */
+
+/* var hijo = {
+    nombre: `Raúl`,
+    apellido: `Zamora`,
+    edad: 18
+};
+
+console.log(`Hola, soy ${hijo.nombre}`) */
+
+/* var hija = {
+    nombre: `Luisa`,
+    apellido: `Cantú`,
+    edad: 29
+} */
+
+/* var primos = [`María`, `Leonardo`,]
+
+var primosLejanos = [`Thalía`, `Alma`]
+
+var familiaCompleta = primos.concat(primosLejanos); */
+
+/* var ninos = hijo.concat(hija); */
+
+/* console.log([hijo, hija]); */
+
+/* var numero = 10;
+
+if(numero > 5) {
+    console.log(`Sí, se cumplío.`)
+}else(numero < 15) 
+ console.log(`Lo siento, no se cumplió`)
+
+ var mesas = 5;
+
+ if(mesas < 10) {
+     console.log(`Tenemos que, pedir más mesas`)
+ }else(mesas >= 5)
+ console.log(`Ya no necesitamos más mesas`) */
+
+
+ /* var colorFavorito = `Azul`;
+
+ switch(colorFavorito){
+     case `Azul`: console.log(`éste es mi color`);
+     break;
+
+     case `Verde`: console.log(`No es mi color`);
+     break;
+
+     default: console.log(`No encontramos tu color favorito`);
+     break;
+ } */

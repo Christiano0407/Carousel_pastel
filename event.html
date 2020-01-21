@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/eventcolor.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi formulario</h1>
+
+        <form name="form" action="">
+
+         <div class="input-group">
+             <input type="text" name="name" id="names" placeholder="name">
+         </div>
+
+        <div class="input-group">
+            <input type="email" name="email" id="emails" placeholder="E-mail">
+        </div>
+
+        <div class="input-group">
+            <label for="colorFavorito">Marca esta opción, si tienes un color favorito.</label>
+            <input type="checkbox" name="colorFavorito" id="ColorFavoritos">
+        </div>
+
+        <p class="disabled">Selecciona tu color favorito</p>
+        
+        <div class="input-group radio-buttons disabled">
+          <input type="radio" name="color" id="verde" disabled> <label for="verde">Verde</label> 
+          <input type="radio" name="color" id="azul"><label for="azul">Azul</label>
+          <input type="radio" name="otros" id="otros"><label for="otros">Otros</label>
+        </div>
+   
+         <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+</body>
+</html>

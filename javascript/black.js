@@ -92,3 +92,37 @@ if(numero > 5) {
       console.log(`Hoy, lo veré para un  negocio`)
  };
  */
+
+/* var i = 12;
+
+do {
+    document.write(i + `<br>`);
+    i++;
+}while(i < 11) */
+
+/* var semana = [`Lunes`, `Martes`, `Miércoles`, `Jueves`, `Viernes`, `Sábado`, `Domingo`];
+
+for(var i = 0; i < semana.length; i++) {
+   if(semana[i] == `Viernes`) {
+       console.log(`Hoy, toca!`)
+       continue
+   }
+   console.log(semana[i])
+;} */
+
+function persona(nombre, apellido) {
+    this.name = nombre,
+    this.apellido= apellido
+}
+
+persona.prototype.saluda = function() {
+    console.log(`Hola, soy ${this.name}`)
+}
+
+var Luisa = new persona(`Luisa`, `Velázquez`);
+var Mau = new persona(`Mauricio`, `Saínz`);
+
+console.log(Luisa);
+console.log(Mau);
+Luisa.saluda();
+Mau.saluda();

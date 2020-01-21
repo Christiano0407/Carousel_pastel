@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    width: 400px;
+}
+
+.text {
+    padding: 10px;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.boton {
+ display: inline-block;
+ background-color: blue;
+ border-radius: 10px;
+ border: 2px solid blue;
+ padding: 10px 30px;
+ cursor: pointer;
+ color: blue;
+
+}
+
+.boton:hover {
+    background: blue;
+    border: 2px solid blue;
+    color: white;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding:10px;
+    outline:none;
+}
+
+input[type="radio"]{
+    margin-left:10px
+}
+
+input[type="radio"]:first-child{
+    margin-left:0;
+}
+
+input[type="submit"]{
+    width:100%;
+    background: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+
+.disabled {
+    color: blue;
+    cursor: not-allowed;
+}
+
+.disabled input, .disabled label {
+    color: blue;
+    cursor: not-allowed;
+}

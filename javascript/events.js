@@ -12,3 +12,15 @@ function llama() {
 }
 
 boton.addEventListener(`click`, llama);
+
+
+
+var parrafo = document.getElementsByClassName(`textos`)[0];
+
+parrafo.addEventListener(`mouseover`, function(){
+    console.log(`Hola!`);
+});
+
+parrafo.addEventListener(`mouseout`, function() {
+    console.log(`Adios!`);
+});

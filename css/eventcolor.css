@@ -93,3 +93,15 @@ input[type="submit"]{
     color: white;
     margin: 5px;
 }
+
+.hellos {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+
+}

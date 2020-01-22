@@ -66,3 +66,12 @@ inputColorFavoritos.addEventListener(`change`, elegirColor)
 //Permite que, puedas cargar todo tu código. 
   
 
+// Cambiar css usando javascript
+
+var botones = document.getElementsByClassName(`hellos`);
+
+var saludo = document.getElementById(`saludo`);
+
+saludo.addEventListener(`click`, function() {
+    botones[0].style.width = `100%`
+});

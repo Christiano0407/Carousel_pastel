@@ -88,3 +88,34 @@ main .container-img {
     color: aqua;
     font-style: normal;
 }
+
+.container-text p {
+    margin-bottom: 40px;
+    line-height: 30px;
+    color: white;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    background-color: white;
+    color: #483c77;
+}
+
+.btn-link:hover, .btn-link-activo {
+    background-color: #5b4a9a;
+    color: #f2f2f2;
+}
+
+@media screen and (max-width:915px) {
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main .container-img {
+        margin-bottom: 40px;
+    }
+}

@@ -65,3 +65,26 @@ header {
 .main:hover {
     border-bottom: 1px solid #362c5a;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+main .container-img {
+    max-width: 60%;
+    margin-right: 40px;
+}
+
+.container-text .title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.container-text .movil {
+    font-weight: bold;
+    color: aqua;
+    font-style: normal;
+}

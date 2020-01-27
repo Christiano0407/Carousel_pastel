@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: monospace;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.parallax {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/neonbrand-zj_saLHazwk-unsplash.jpg);
+    background-size: cover;
+}

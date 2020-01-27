@@ -36,6 +36,15 @@ h1 {
     transition: all 0.5s;
 }
 
-@keyframes() {
-    
+.mostrarArriba {
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba {
+0% {
+transform: translateY(60px);
+}
+100% {
+transform: translateY(0);
+}
 }

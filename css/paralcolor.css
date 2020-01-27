@@ -22,4 +22,12 @@ body {
     height: 100vh;
     background-image: url(../img/neonbrand-zj_saLHazwk-unsplash.jpg);
     background-size: cover;
+    z-index: -1;
+}
+
+.title {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
 }

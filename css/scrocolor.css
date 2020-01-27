@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: monospace;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.parallax {
+    background-image: url(../img/balazs-ketyi-6ba_vdgx_go-unsplash.jpg);
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.title {
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
